@@ -1,0 +1,57 @@
+#indexheader{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#indexh21{
+    padding-left: 20px;
+    color:#C86F09;
+    display: flex;
+    align-self: flex-start;
+}
+
+#indexnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.indexa{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    padding: 20px;
+}
+
+.indexa:hover{
+    background-color: #C86F09;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#indexbody{
+    color: #696664;
+    margin: 0;
+}
+
+main{
+    max-width: 90%;
+    display: flex;
+    background-color: #9C9C9C;
+    /* margin: 0 50px; */
+    justify-content: center;
+
+}
+
+div{
+    background-color: #696664;
+    display: flex;
+}
+
+h1{
+    color: bisque;
+
+}
+
