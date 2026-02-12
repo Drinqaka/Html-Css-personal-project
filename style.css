@@ -31,16 +31,15 @@
     padding: 20px;
 }
 
-#indexbody{
-    color: #696664;
+body{
+    background-color: #696664;
     margin: 0;
 }
 
 main{
     max-width: 90%;
     margin: 0 auto; 
-    justify-content: center;
-
+   padding: 40px 20p
 }
 
 
@@ -96,6 +95,7 @@ h1{
 .indexdiv2 h2{
     font-size: 28px;
     margin-bottom: 30px;
+    color:  bisque;
 }
 
 .indexdiv3{
@@ -115,12 +115,13 @@ h1{
 
 .indexdiv4 img{
     width: 100%;
-    height: 100%;
+    height: 180px;
     object-fit: cover;
 }
 
 .indexdiv4 h3{
     padding: 15px 15px 15px;
+    color: white;
 }
 
 .indexdiv4 p{
@@ -128,5 +129,87 @@ h1{
     color: #C86F09;
     font-weight: bold;
     font-size: 18px;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    margin-top: 42px;
+}
+
+.carsh1{
+   font-size: 32px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.carsdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.carsdiv2{
+    display: flex;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carsdiv2 img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carsdiv3{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carsdiv3 h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.carsdiv3p{
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.carsdiv3p2{
+    color: #C86F09;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.carsa{
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    background-color: #C86F09;
+    border-radius: 8px;
+}
+
+.carsa:hover{
+    background-color: #d35400;
+    border-radius: 8px;
+}
+
+.carsdiv3 h3{
+    color: white;
+}
+
+#contactfooter{
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    margin-top: 42px;
 }
 
